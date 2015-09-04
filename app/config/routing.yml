@@ -1,0 +1,9 @@
+alloparty_party:
+    resource: "@AllopartyPartyBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+alloparty_user:
+    resource: "@AllopartyUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
