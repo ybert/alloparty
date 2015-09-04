@@ -9,6 +9,6 @@ class PartyController extends FOSRestController
 
     public function getPartyAction($id)
     {
-
+        $this->getDoctrine()->getManager()->getRepository('Party')->find($id);
     }
 }
